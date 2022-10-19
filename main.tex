@@ -35,7 +35,7 @@
 % a tabular* for each food group
 \newenvironment{Group}[1]
   {\noindent\begin{tabular*}{\textwidth}{@{}p{.8\linewidth}@{\extracolsep{\fill}}r@{}}
-    {\fontsize{24}{29}\selectfont\ColText{#1}}\\[0.8em]}
+    {\fontsize{18}{29}\selectfont\ColText{#1}}\\[0.8em]}
   {\end{tabular*}}
 
 % to format each entry
@@ -49,25 +49,27 @@
 \pagestyle{empty}
 
 \begin{document}
-\begin{Group}{Hors d'oeuvre}
-\Entry{Explanation/ingredients}{} \\
-\Expl{Pairing} \\
+
+\vspace*{80pt}
+\hspace{2em}
+\begin{Group}{Butternut Squash and Sage Risotto}
+\Entry{Scattered with pomegranate seeds.}{} \\
+\Expl{Pairing: St. JOHN Bourgogne Blanc 2016} \\
 \end{Group}
 
 \vfill
-
-\begin{Group}{Plat Principal}
-\Entry{Explanation/ingredients}{} \\
-\Expl{Pairing} \\
+\hspace{2em}
+\begin{Group}{Game (seasonal)}
+\Entry{Seasonal game (one of partridge, pheasant, duck, or venison), served with a sweet potato mash, purple sprouting brocolli, and truffle honey-roasted carrots.}{} \\
+\Expl{Pairing: Red Hook Winery McCall Vineyard Merlot 2016 } \\
 \end{Group}
 
 \vfill
-
-\begin{Group}{Dessert}
-\Entry{Explanation/ingredients}{} \\
-\Expl{Pairing} \\
+\hspace{2em}
+\begin{Group}{Dessert (seasonal)}
+\Entry{Macarons, coconut sorbet, and fresh fruit.}{} \\
+\Expl{Pairing: TBD} \\
 \end{Group}
 
 \vfill
-
 \end{document}
